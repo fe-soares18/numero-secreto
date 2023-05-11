@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+:root {
+    --font-family: 'Orbitron', sans-serif;
+    --bg-color: #371B58;
+    --primary-color: #7858A6;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 1em;
+}
+
+.message {
+    font-size: 1.5em;
+    margin-top: 0.5em;
+}
+
+.box {
+    border: solid 2px var(--primary-color);
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 3em;
+    padding: 0.5em;
+    margin: 0.5em 0;
+}
+
+.btn-retry {
+    padding: 0.5em 2em;
+    border: solid 2px var(--primary-color);
+    font-family: var(--font-family);
+    background: transparent;
+    border-radius: 5px;
+    margin-top: 2em;
+    color: var(--primary-color);
+
+}
+
+.btn-retry:hover {
+    background-color: #51327c;
+}
+.btn-retry:active {
+    background-color: transparent;
+}
