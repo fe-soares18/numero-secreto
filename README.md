@@ -4,7 +4,8 @@ Jogo de adivinhação legal.
 
 Adivinhe um número entre 1 a 1000
 
-Diga um número
+Diga um número.
+
 Aparecerá uma dica abaixo.
 
 Alguns bugs:
